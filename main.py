@@ -13,7 +13,7 @@ for i in range(MAX_AVERAGES):
 minAverage = averages[0]
 maxAverage = averages[0]
 # Start out your total with the value of the first element in the array.
-total = averages[0]
+total = 0
 # Write a loop here to access array values starting with averages[1]
 for i in range(MAX_AVERAGES):
 
@@ -25,12 +25,13 @@ for i in range(MAX_AVERAGES):
         maxAverage = averages[i]
 
     # Also accumulate a total of all batting averages.
+    total = total + averages[i]
 
-averagge = total / MAX_AVERAGES
+average = total / MAX_AVERAGES
 # Calculate the average of the 8 batting averages.
 print("Minimum batting average is " + string(minAverage))
 print("Maximum batting average is " + string(maxAverage))
-print("Average batting average is " + string(maxAverage))
+print("Average batting average is " + string(average))
 
 # Print the batting averages stored in the averages array.
 
