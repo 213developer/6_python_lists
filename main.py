@@ -29,9 +29,9 @@ for i in range(MAX_AVERAGES):
 
 average = total / MAX_AVERAGES
 # Calculate the average of the 8 batting averages.
-print("Minimum batting average is " + string(minAverage))
-print("Maximum batting average is " + string(maxAverage))
-print("Average batting average is " + string(average))
+print("Minimum batting average is " + str(minAverage))
+print("Maximum batting average is " + str(maxAverage))
+print("Average batting average is " + str(average))
 
 # Print the batting averages stored in the averages array.
 
